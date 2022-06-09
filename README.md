@@ -9,6 +9,7 @@ One of the basic assumptions of the general linear model is that the parameters 
     pip install tvslr==1.0.0
 
 ## Usage
+### In python
 ```python
     from tvslr.tvslr import TVSLR
     """
@@ -22,4 +23,9 @@ One of the basic assumptions of the general linear model is that the parameters 
     print(betas)
     print("R-squared:", reg.cod)
     print("Adj. R-squared:", reg.adj_cod)
+```
+
+### In command prompt
+```bat
+    python -m tvslr <excel filename> <sheetname> <subset size>
 ```
