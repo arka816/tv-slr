@@ -6,7 +6,7 @@ One of the basic assumptions of the general linear model is that the parameters 
 [paper link](https://www.researchgate.net/publication/348422809_TIME_VARYING_ESTIMATION_OF_REGRESSION_MODEL_USING_OLS_ESTIMATES)
 
 ## Installation
-    pip install tvslr==1.0.0
+    pip install tvslr
 
 ## Usage
 ### In python
